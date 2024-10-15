@@ -1,0 +1,421 @@
+#email{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#password{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #757575;
+  border: 1px solid #dcdcdc;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.google-button:hover {
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* #top{
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  opacity: 0.9;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+ }
+ #top-image{
+  width: 100px;
+  margin-left: 50px;
+ } */
+ /* #background{
+  width: 100%;
+  height: 90.4vh;
+ } */
+ #center-page{
+  width: 320px;
+  height: 550px;
+  background-color: rgba(139, 137, 137, 0.1);
+  position: absolute;
+  bottom: 75px;
+  left: 450px;
+  padding: 10px;
+  gap: 10px;
+  /* border: 1px solid; */
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+ }
+ #input1{
+ width: 280px;
+ height: 60px;
+ border-radius: 5px;
+ padding: 10px;
+ font-weight: 300;
+ font-size: 18px;
+ /* justify-content: space-around; */
+ position: relative;
+ top: 10px;
+ background-color: rgb(238, 237, 236);
+ box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+ }
+ #input2{
+  width: 280px;
+  height: 60px;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  /* justify-content: space-around; */
+  position: relative;
+  top: 10px;
+  background-color: rgb(238, 237, 236);
+  box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+  }
+  #input3{
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    /* justify-content: space-around; */
+    position: relative;
+    top: 10px;
+    background-color: rgb(238, 237, 236);
+    box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+    }
+    #input4{
+      width: 280px;
+      height: 60px;
+      border-radius: 5px;
+      padding: 10px;
+      font-weight: 300;
+      font-size: 18px;
+      /* justify-content: space-around; */
+      position: relative;
+      top: 10px;
+      background-color: rgb(238, 237, 236);
+      box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+      }
+      #input5{
+        width: 280px;
+        height: 60px;
+        border-radius: 5px;
+        padding: 10px;
+        font-weight: 300;
+        font-size: 18px;
+        /* justify-content: space-around; */
+        position: relative;
+        top: 10px;
+        background-color: rgb(238, 237, 236);
+        box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+        }
+ #input1:hover{
+  color: black;
+  border: 1px  solid black !important;
+  background-color:white;
+  box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+ }
+ #input2:hover{
+  color: black;
+  border: 1px  solid black !important;
+  background-color:white;
+  box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+ }
+ #input3:hover{
+  color: black;
+  border: 1px  solid black !important;
+  background-color:white;
+  box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+ }
+ #input4:hover{
+  color: black;
+  border: 1px  solid black !important;
+  background-color:white;
+  box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+ }
+ #input5:hover{
+  color: black;
+  border: 1px  solid black !important;
+  background-color:white;
+  box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+ }
+ 
+ 
+ #image{
+  width: 40px;
+  position: relative;
+ top: -20px;
+ left: 5px;
+ 
+ }
+ #h3{
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  top: 30px;
+  left: 5px;
+  padding: -5px;
+ }
+ #h4{
+  position: relative;
+  top: 10px;
+ }
+ #eye{
+  width: 20px;
+   position: relative;
+    bottom: 30px;
+    left: 230px;
+    cursor: pointer;
+ }
+ #eye:hover{
+  /* color: #128fdc;
+  background-color: #128fdc; */
+  border: 1px solid black;
+  border-radius: 10px;
+ 
+ }
+ #blue-background{
+  background-color: black;
+  width: 280px;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 3px 3px 4px 3px rgba(2, 2, 2, 0.1);
+ }
+ #mean{
+  position: relative;
+  top: -30px;
+ }
+ #middle{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: sans-serif;
+ }
+  #tag{
+    color: rgb(138, 118, 9);
+    padding: 5px;
+  }
+  #lastly{
+  position: absolute;
+  top: 610px;
+  left: 480px;
+  gap: 70px;
+  /* display: flex; */
+ } 
+ #select{
+  color: white;
+  background-color:black ;
+  border: 1px solid rgb(138, 118, 9);
+ }
+  #inside-lastly{
+   text-decoration: none;
+   color: black;
+   margin-left: 0px;
+  }
+  #last-last{
+   margin-left: 120px;
+   margin-top: -25px;
+   gap: 5px !important;
+  display: flex;
+
+  }
+
+#logo{
+padding: 5px;
+  display: flex;
+  width: 50px;
+margin-left: 20px;
+}
+#nav{
+  display: flex;
+  color: black;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+  
+}
+#navi{
+margin-left: 400px;
+margin-top: 10px;
+
+}
+#navc{
+  margin-left: 350px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  /* padding: -50px !important; */
+  }
+
+  #one{
+    background-color: black !important;
+    width: 100% !important;
+    height: 100px;
+  }
+
+
+
+
+  @media screen and (max-width:475px) {
+    #top{
+       background-color: black;
+       width: 100%;
+       height: 50px;
+       padding: 15px;
+       position: sticky;
+       top: 0;
+       z-index: 200;
+      }
+      #top-image{
+       width: 100px;
+       margin-left: 10px;
+      }
+      #background{
+       width: 100%;
+       height: 93.4vh;
+       display: none;
+      }
+      #center-page{
+       width: 200px;
+       height: 550px;
+       background-color: white;
+       position: absolute;
+       bottom: -10px;
+       left: 80px;
+ 
+       padding: 40px;
+       gap: 10px;
+       border-radius: 5px;
+       align-items: center;
+       justify-content: center;
+       display: flex;
+       flex-direction: column;
+      }
+      #inputs{
+      width: 300px;
+      height: 60px;
+      border-radius: 5px;
+      padding: 10px;
+      font-weight: 300;
+      font-size: 18px;
+      margin-top: 20px;
+      position: relative;
+      top: 10px;
+      }
+      #inputs:hover{
+       color: black;
+       border: 1px  solid black;
+      }
+      
+      #image{
+       width: 30px;
+       position: relative;
+      top: 50px;
+      left: 5px;
+      
+      }
+      #h3{
+       font-size: 14px;
+       font-weight: 400;
+       position: relative;
+       top: 40px;
+       left: 0px;
+       
+      
+      }
+      #eye{
+       width: 20px;
+        position: relative;
+         bottom: 25px;
+         left: 250px;
+         cursor: pointer;
+      }
+      #eye:hover{
+       /* color: #128fdc;
+       background-color: #128fdc; */
+       border: 1px solid black;
+       border-radius: 10px;
+      
+      }
+      #blue-background{
+       background-color: black;
+       width: 350px;
+       height: 100px !important;
+       border: none;
+       color: white;
+       padding: 1px;
+       font-size: 18px;
+       font-weight: 6f00;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin-top: 5px;
+       margin-left: -10px;
+      }
+      #middle{
+       font-size: 12.4px;
+       font-weight: 400;
+       font-family: sans-serif; 
+       position: relative;
+       top: 27px;
+ 
+      }
+      #mean{
+       width: 100%;
+       position: relative;
+       top: 17px;
+       font-size: 11.9px;
+       font-weight: 400;
+       /* text-align: center; */
+       font-family: sans-serif;
+      }
+      
+      #lastly{
+       /* position: relative;
+       bottom: 200px; */
+       margin-top: 800px;
+       margin-left: 50px;
+       gap: 50px;
+       display: flex;
+       font-size: 14px;
+      }
+      #select{
+       color: black;
+       background-color: transparent;
+       border: none;
+      }
+       #inside-lastly{
+        text-decoration: none;
+        color: black;
+        margin-left: 0px;
+       }
+       #last-last{
+        margin-left: 40px;
+        gap: 5px;
+       }
+  }
